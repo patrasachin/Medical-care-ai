@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medical-care-ai</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedicalCare Chatbot</title>
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline"> Medical-care-ai</h1>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors">
+  <header class="w-full bg-white dark:bg-gray-800 shadow p-4 flex justify-between items-center">
+    <h1 class="text-lg font-bold">MedicalCare AI</h1>
+    <button id="themeToggle" class="bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-200 px-3 py-2 rounded-md">
+      🌙
+    </button>
+  </header>
+  <div id="app" class="min-h-screen flex flex-col items-center justify-center">
+    <!-- Dynamic components load here -->
+  </div>
+  <footer class="w-full bg-white dark:bg-gray-800 text-center py-4">
+    <p class="text-sm">&copy; 2024 MedicalCare AI. All rights reserved.</p>
+  </footer>
+  <script type="module" src="/src/main.js"></script>
 </body>
 </html>
