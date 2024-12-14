@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
+
 <head>
   <meta charset="UTF-8">
   <link rel="icon" type="image/svg+xml" href="/vite.svg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MedicalCare</title>
+  <title>Echo Care</title>
 </head>
+
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors">
   <header class="w-full bg-white dark:bg-gray-800 shadow p-4 flex justify-between items-center">
-    <h1 class="text-lg font-bold">Echo Care</h1>
+    <a href="/" class="flex items-center"> <img src="./src/assets/logo.svg" alt="Echo Care Logo"
+        class="h-12 w-12 rounded-full">
+      <h1 class="text-lg font-bold">Echo Care</h1>
+
+    </a>
     <button id="themeToggle" class="bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-200 px-3 py-2 rounded-md">
       🌙
     </button>
   </header>
   <div id="app" class="min-h-screen flex flex-col items-center justify-center">
     <!-- Dynamic components load here -->
+
+
+
   </div>
   <footer class="w-full bg-white dark:bg-gray-800 text-center py-4">
     <p class="text-sm">&copy; 2024Echo Care. All rights reserved.</p>
   </footer>
   <script type="module" src="/src/main.js"></script>
 </body>
+
 </html>
