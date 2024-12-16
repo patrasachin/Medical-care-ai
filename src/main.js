@@ -22,9 +22,3 @@ function navigate(route) {
 navigate();
 
 
-// // add a  blur header in scroll 
-// window.addEventListener('scroll', () => {
-//   const nav = document.querySelector('nav');
-//   nav.classList.toggle('blur', window.scrollY > 0);
-    
-// }) 
